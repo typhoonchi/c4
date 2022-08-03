@@ -10,6 +10,12 @@ C4编译器中文注释改进版
 
 #### 使用说明
 
+见识使用gcc 版本：
+
+gcc version 11.2.0 以上 64位欢迎环境下测试
+
+(x86_64-posix-seh-rev1, Built by MinGW-W64 project) 
+
 增加 help 帮助指令
 
 启用命令：
