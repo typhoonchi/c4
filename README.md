@@ -4,20 +4,33 @@
 C4编译器中文注释改进版
 
 #### 软件架构
-软件架构说明
+基于github 开源C4编译器，实现自举功能
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+增加 help 帮助指令
+
+启用命令：
+gcc -o c4 c4.c
+./c4 hello.c
+./c4 -s hello.c
+
+./c4 c4.c hello.c
+./c4 c4.c c4.c hello.c
+
+
+或者
+
+gcc -o c4 c4.c
+c4 hello.c
+c4 -s hello.c
+
+c4 c4.c hello.c
+c4 c4.c c4.c hello.c
+
+错误：如果提示apppath 不存在，怎说明gcc 编译器没有加入环境变量中
 
 #### 参与贡献
 
