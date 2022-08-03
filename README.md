@@ -46,6 +46,24 @@ c4 c4.c c4.c hello.c
 
 错误：如果提示apppath 不存在，怎说明gcc 编译器没有加入环境变量中
 
+
+
+
+### 编译器说明
+
+ c4.c - C 中的四个函数,
+
+
+
+> 编译器支持类型：char、int 和 * 指针类型,
+> 编译器支持语句：if、while、return 和表达式语句
+
+- readNextToken()   词法解析，读下一个token
+- parseStatement()  语法解析，分析句子
+- parseExpr(level)  表达式解析，分析运算表达式
+- main()  主函数 ，参数判断，
+
+
 #### 参与贡献
 
 1.  Fork 本仓库
