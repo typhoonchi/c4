@@ -12,7 +12,7 @@ C4编译器中文注释改进版，添加中文的注释目的是为了方便新
 
 建议使用gcc 版本：
 
-gcc version 11.2.0 以上 64位欢迎环境下测试
+gcc version 11.2.0 以上 64位环境下测试
 
 (x86_64-posix-seh-rev1, Built by MinGW-W64 project) 
 
