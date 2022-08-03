@@ -19,6 +19,8 @@ gcc version 11.2.0 以上 64位环境下测试
 增加 help 帮助指令
 
 启用命令：
+
+```
 gcc -o c4 c4.c
 ./c4 hello.c
 ./c4 -s hello.c
@@ -26,15 +28,21 @@ gcc -o c4 c4.c
 ./c4 c4.c hello.c
 ./c4 c4.c c4.c hello.c
 
+```
+
 
 或者
 
+
+```
 gcc -o c4 c4.c
 c4 hello.c
 c4 -s hello.c
 
 c4 c4.c hello.c
 c4 c4.c c4.c hello.c
+
+```
 
 错误：如果提示apppath 不存在，怎说明gcc 编译器没有加入环境变量中
 
